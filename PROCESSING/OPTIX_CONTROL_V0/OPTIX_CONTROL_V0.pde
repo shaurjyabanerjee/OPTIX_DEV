@@ -63,6 +63,7 @@ int laser_vals [] = new int[4];
 int laser_counts[] = new int [4];
 int fog_state = 0;
 int fog_count = 0;
+int r_val, g_val, b_val = 0;
 
 //Create Control P5 GUI Elements
 Knob position_knobs[] = new Knob[16];
@@ -78,7 +79,7 @@ void setup() {
   smooth();
   
   printArray(Serial.list());
-  myPort = new Serial(this, Serial.list()[0], 250000);
+  //myPort = new Serial(this, Serial.list()[0], 250000);
   
   cp5 = new ControlP5(this);
   
@@ -290,17 +291,19 @@ void setup() {
      .setSize(g_button_width, g_button_height)
      .setId(1018);
      
-  cp5.addButton("LEDS FULL WHITE")
+  cp5.addButton("SEND COLOR TO LEDs")
      .setValue(0)
-     .setPosition(g_base_x + 390, g_base_y + 410)
-     .setSize(g_button_width, g_button_height)
+     .setPosition(g_base_x + 390 , g_base_y + (g_spacing_y*4))
+     .setSize(200, g_button_height)
      .setId(1030);
      
-  cp5.addButton("LEDS OFF")
+  cp5.addButton("BLACKOUT LEDs")
      .setValue(0)
-     .setPosition(g_base_x + 390, g_base_y + 410+ (g_spacing_y*1))
-     .setSize(g_button_width, g_button_height)
+     .setPosition(g_base_x + 390 , g_base_y + (g_spacing_y*5))
+     .setSize(200, g_button_height)
      .setId(1031);
+     
+  cp5.addColorWheel("c", 1220, 170, 200).setRGB(color(255,0,0));
 }
 
 void draw() 
@@ -492,9 +495,17 @@ public void controlEvent(ControlEvent theEvent) {
     
   }
   
-  //LED CONTROL SECTION
+  //Send color wheel value to LEDs
   if (id == 1030)
-  {msg = "<"+6+","+0+","+255+","+255+","+255+","+0+">";myPort.write(msg);}
+  {
+    r_val = cp5.get(ColorWheel.class,"c").r();
+    g_val = cp5.get(ColorWheel.class,"c").g();
+    b_val = cp5.get(ColorWheel.class,"c").b();
+    msg = "<"+6+","+0+","+r_val+","+g_val+","+b_val+","+0+">";
+    myPort.write(msg);
+  }
+  
+  //Blackout LEDs
   if (id == 1031)
   {msg = "<"+6+","+0+","+0+","+0+","+0+","+0+">";myPort.write(msg);}
 }
