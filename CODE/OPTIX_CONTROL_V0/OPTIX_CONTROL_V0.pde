@@ -150,25 +150,25 @@ void setup() {
      
     cp5.addButton((i+1) + " +15°")
      .setValue(0)
-     .setPosition(knob_base_x + 45 + (i%4 * knob_spacing), knob_base_y + 128 + (i/4 * knob_spacing))
+     .setPosition(knob_base_x + 45 + (i%4 * knob_spacing), knob_base_y + 129 + (i/4 * knob_spacing))
      .setSize(50,19)
      .setId(i+200);
      
     cp5.addButton((i+1) + " -15°")
      .setValue(0)
-     .setPosition(knob_base_x - 10 + (i%4 * knob_spacing), knob_base_y + 128 + (i/4 * knob_spacing))
+     .setPosition(knob_base_x - 10 + (i%4 * knob_spacing), knob_base_y + 129 + (i/4 * knob_spacing))
      .setSize(50,19)
      .setId(i+220);
      
     cp5.addButton((i+1) + " +5°")
      .setValue(0)
-     .setPosition(knob_base_x + 45 + (i%4 * knob_spacing), knob_base_y + 152 + (i/4 * knob_spacing))
+     .setPosition(knob_base_x + 45 + (i%4 * knob_spacing), knob_base_y + 153 + (i/4 * knob_spacing))
      .setSize(50,19)
      .setId(i+240);
      
     cp5.addButton((i+1) + " -5°")
      .setValue(0)
-     .setPosition(knob_base_x - 10 + (i%4 * knob_spacing), knob_base_y + 152 + (i/4 * knob_spacing))
+     .setPosition(knob_base_x - 10 + (i%4 * knob_spacing), knob_base_y + 153 + (i/4 * knob_spacing))
      .setSize(50,19)
      .setId(i+260);
   }
