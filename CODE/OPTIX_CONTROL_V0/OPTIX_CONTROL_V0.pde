@@ -147,6 +147,30 @@ void setup() {
      .setPosition(knob_base_x - 10 + (i%4 * knob_spacing), knob_base_y + 105 + (i/4 * knob_spacing))
      .setSize(50,19)
      .setId(i+80);
+     
+    cp5.addButton((i+1) + " +15°")
+     .setValue(0)
+     .setPosition(knob_base_x + 45 + (i%4 * knob_spacing), knob_base_y + 128 + (i/4 * knob_spacing))
+     .setSize(50,19)
+     .setId(i+200);
+     
+    cp5.addButton((i+1) + " -15°")
+     .setValue(0)
+     .setPosition(knob_base_x - 10 + (i%4 * knob_spacing), knob_base_y + 128 + (i/4 * knob_spacing))
+     .setSize(50,19)
+     .setId(i+220);
+     
+    cp5.addButton((i+1) + " +5°")
+     .setValue(0)
+     .setPosition(knob_base_x + 45 + (i%4 * knob_spacing), knob_base_y + 152 + (i/4 * knob_spacing))
+     .setSize(50,19)
+     .setId(i+240);
+     
+    cp5.addButton((i+1) + " -5°")
+     .setValue(0)
+     .setPosition(knob_base_x - 10 + (i%4 * knob_spacing), knob_base_y + 152 + (i/4 * knob_spacing))
+     .setSize(50,19)
+     .setId(i+260);
   }
   
   //Style and setup all global GUI elements  here ----------------------------
@@ -407,6 +431,37 @@ public void controlEvent(ControlEvent theEvent) {
     myPort.write(msg);
   }
   
+  //Single motor +15 degree is being requested
+  if (id >= 200 && id < 220) 
+  {
+    positions[id%20] = positions[id%20]+ angle_to_steps(15);
+    msg = "<"+3+","+(id%20+1)+","+positions[id%20]+","+max_speed+","+max_accel+","+0+">";
+    myPort.write(msg);
+  }
+  
+  //Single motor -15 degree is being requested
+  if (id >= 220 && id < 240) 
+  {
+    positions[id%20] = positions[id%20]+ angle_to_steps(-15);
+    msg = "<"+3+","+(id%20+1)+","+positions[id%20]+","+max_speed+","+max_accel+","+0+">";
+    myPort.write(msg);
+  }
+  
+  //Single motor +5 degree is being reqeusted
+  if (id >= 240 && id < 260) 
+  {
+    positions[id%20] = positions[id%20]+ angle_to_steps(5);
+    msg = "<"+3+","+(id%20+1)+","+positions[id%20]+","+max_speed+","+max_accel+","+0+">";
+    myPort.write(msg);
+  }
+  
+  //Single motor -5 degree is being requested
+  if (id >= 260 && id < 280) 
+  {
+    positions[id%20] = positions[id%20]+ angle_to_steps(-5);
+    msg = "<"+3+","+(id%20+1)+","+positions[id%20]+","+max_speed+","+max_accel+","+0+">";
+    myPort.write(msg);
+  }
   
   //All to zero is being requested
   if (id == 1000) 
@@ -444,7 +499,7 @@ public void controlEvent(ControlEvent theEvent) {
     send_speeds_positions_serial();
   }
   
-  //LASER CONTROL --------------------------------------------------
+  //LASER CONTROL ----------------------------------------------------------
   //Laser 1 On/Off
   if (id == 1020) 
   {
@@ -520,6 +575,8 @@ public void controlEvent(ControlEvent theEvent) {
   {msg = "<"+6+","+0+","+0+","+0+","+0+","+0+">";myPort.write(msg);}
 }
 
+
+//Function to send homing commands to all 16 motors sequentially
 void home_all_motors()
 {
   for (int i=1; i<=16; i++)
@@ -529,7 +586,6 @@ void home_all_motors()
     delay(serial_delay);
   }
 }
-
 
 //Function to handle sending all 16 stepper motor positions only
 void send_positions_serial()
