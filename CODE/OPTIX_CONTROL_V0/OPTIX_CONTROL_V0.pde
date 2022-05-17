@@ -1,5 +1,5 @@
 //GUI to interact with and program OPTIX
-//Serial control of 16 stepper motors with microstepping
+//Serial control of 16 stepper motors with variable microstepping
 //Shaurjya Banerjee 2022
 
 import controlP5.*;
@@ -204,9 +204,15 @@ void setup() {
      
   cp5.addButton("RESET MATRIX")
      .setValue(0)
-     .setPosition(610,74)
-     .setSize(140,18)
+     .setPosition(610,48)
+     .setSize(140,20)
      .setId(1007);
+     
+  cp5.addButton("HOME ALL")
+     .setValue(0)
+     .setPosition(610,74)
+     .setSize(140,20)
+     .setId(1008);
      
   cp5.addButton("LASER RED")
      .setValue(0)
@@ -365,6 +371,10 @@ public void controlEvent(ControlEvent theEvent) {
     myPort.write(msg);
   }
   
+  //Send home all motors command
+  if (id == 1008)
+  {home_all_motors();}
+  
   //One step positive is being requested
   if (id >= 20 && id < 40) 
   {
@@ -508,6 +518,16 @@ public void controlEvent(ControlEvent theEvent) {
   //Blackout LEDs
   if (id == 1031)
   {msg = "<"+6+","+0+","+0+","+0+","+0+","+0+">";myPort.write(msg);}
+}
+
+void home_all_motors()
+{
+  for (int i=1; i<=16; i++)
+  {
+    msg = "<"+1+","+i+","+0+","+0+","+0+","+0+">";
+    myPort.write(msg);
+    delay(serial_delay);
+  }
 }
 
 
