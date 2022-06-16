@@ -64,12 +64,16 @@ int laser_counts[] = new int [4];
 int fog_state = 0;
 int fog_count = 0;
 int r_val, g_val, b_val = 0;
+int esc_state = 0;
+int pix_val = 0;
 
 //Create Control P5 GUI Elements
 Knob position_knobs[] = new Knob[16];
 Knob speed_knobs[] = new Knob[16];
 Slider speed_slider;
 Slider accel_slider;
+Knob led_index_select;
+Knob led_fade_length;
 
 //KEYFRAMING VARIABLES -----------------------------------------------
 int anim_length = 20000;
@@ -79,7 +83,7 @@ void setup() {
   smooth();
   
   printArray(Serial.list());
-  //myPort = new Serial(this, Serial.list()[0], 250000);
+  myPort = new Serial(this, Serial.list()[0], 250000);
   
   cp5 = new ControlP5(this);
   
@@ -321,17 +325,61 @@ void setup() {
      .setSize(g_button_width, g_button_height)
      .setId(1018);
      
+  cp5.addButton("CLOCK MODE")
+     .setValue(0)
+     .setPosition(g_base_x, g_base_y + 410 + (g_spacing_y*4))
+     .setSize(g_button_width, g_button_height)
+     .setId(1019);
+     
   cp5.addButton("SEND COLOR TO LEDs")
      .setValue(0)
      .setPosition(g_base_x + 390 , g_base_y + (g_spacing_y*4))
-     .setSize(200, g_button_height)
+     .setSize(170, g_button_height)
      .setId(1030);
      
   cp5.addButton("BLACKOUT LEDs")
      .setValue(0)
      .setPosition(g_base_x + 390 , g_base_y + (g_spacing_y*5))
-     .setSize(200, g_button_height)
+     .setSize(170, g_button_height)
      .setId(1031);
+     
+  cp5.addButton("SEND COLOR TO PIXEL")
+     .setValue(0)
+     .setPosition(g_base_x + (g_spacing_x*1) + 390 , g_base_y + (g_spacing_y*4))
+     .setSize(170, g_button_height)
+     .setId(1032);
+     
+  cp5.addButton("SEND FADE TO STRIP")
+     .setValue(0)
+     .setPosition(g_base_x + (g_spacing_x*1) + 390 , g_base_y + (g_spacing_y*5))
+     .setSize(170, g_button_height)
+     .setId(1033);
+     
+  led_index_select = cp5.addKnob("LED INDEX")
+                 .setRange(0,10)
+                 .setValue(0)
+                 .setPosition(1450,180)
+                 .setRadius(knob_size)
+                 .showTickMarks()
+                 .setTickMarkLength(knob_size/4)
+                 .setTickMarkWeight(2.5)
+                 .setDragDirection(Knob.VERTICAL)
+                 .setAngleRange(2*PI)
+                 .setStartAngle(PI/2)
+                 .setResolution(10);
+                 
+  led_fade_length = cp5.addKnob("FADE LENGTH")
+                 .setRange(0,10)
+                 .setValue(0)
+                 .setPosition(1450,300)
+                 .setRadius(knob_size)
+                 .showTickMarks()
+                 .setTickMarkLength(knob_size/4)
+                 .setTickMarkWeight(2.5)
+                 .setDragDirection(Knob.VERTICAL)
+                 .setAngleRange(2*PI)
+                 .setStartAngle(PI/2)
+                 .setResolution(10);
      
   cp5.addColorWheel("c", 1220, 170, 200).setRGB(color(255,0,0));
 }
@@ -342,6 +390,15 @@ void draw()
   display_positions();
   update_gui_vals();
   draw_packet(msg);
+}
+
+void keyPressed()
+{
+  if (key == 'e')
+  {
+    esc_state = 1;
+  }
+  
 }
 
 //ANIMATION PLAYBACK ENGINE ----------------------------------------
@@ -373,6 +430,65 @@ void add_keyframe()
 //updates values in Processing when needed
 public void controlEvent(ControlEvent theEvent) {
   int id = theEvent.getController().getId();
+  
+  
+  
+  //Real time clock mode has been engaged
+  if (id == 1019)
+  {
+    esc_state = 0;
+    int sec = second();
+    int min = minute();
+    int hr = hour();
+    int day = day();
+    int month = month();
+    int yr = year();
+    
+    if (esc_state == 0)
+    {
+      
+      sec = second();
+      min = minute();
+      hr = hour();
+      day = day();
+      month = month();
+      yr = year();
+      
+      //First lets set AM/PM. Mirror cell vertical means AM, mirror cell horizontal means PM
+      if (hr < 12) 
+      {
+        positions[0] = 0;
+        msg = "<"+3+","+0+","+positions[0]+","+max_speed+","+max_accel+","+0+">";
+        myPort.write(msg);
+      }
+      
+      else if (hr >= 12) 
+      {
+        positions[0] = angle_to_steps(90);
+        msg = "<"+3+","+0+","+positions[0]+","+max_speed+","+max_accel+","+0+">";
+        myPort.write(msg);
+      }
+      
+      //Now lets set hours
+      positions[1] = angle_to_steps((hr%12)*30.0);
+      msg = "<"+3+","+1+","+positions[1]+","+max_speed+","+max_accel+","+0+">";
+      myPort.write(msg);
+      
+      //Now lets set minutes
+      positions[2] = angle_to_steps(min*6.0);
+      msg = "<"+3+","+2+","+positions[2]+","+max_speed+","+max_accel+","+0+">";
+      myPort.write(msg);
+      
+      //Now lets set seconds
+      positions[3] = angle_to_steps(sec*6.0);
+      msg = "<"+3+","+3+","+positions[3]+","+max_speed+","+max_accel+","+0+">";
+      myPort.write(msg);
+      
+      delay(50);
+    }
+    
+  }
+  
   
   //Global Speed is being adjusted
   if (id == 1005) {max_speed = int(speed_slider.getValue());}
@@ -539,6 +655,10 @@ public void controlEvent(ControlEvent theEvent) {
   //Playback animation 1 is being requested
   if (id == 1015)
   {
+    //Need to implement a way to break out of an animation cycle
+    //while one is still playing. Also need to creates some kind
+    //of GUI display for commands being sent from a pre-written
+    //animation file
     while (true)
     {
       playback_animation(anim1_name, packets1, anim1_length);
@@ -573,6 +693,22 @@ public void controlEvent(ControlEvent theEvent) {
   //Blackout LEDs
   if (id == 1031)
   {msg = "<"+6+","+0+","+0+","+0+","+0+","+0+">";myPort.write(msg);}
+  
+  //Send color wheel value to pixel
+  if (id == 1032)
+  {
+    r_val = cp5.get(ColorWheel.class,"c").r();
+    g_val = cp5.get(ColorWheel.class,"c").g();
+    b_val = cp5.get(ColorWheel.class,"c").b();
+    pix_val = int(led_index_select.getValue());
+    msg = "<"+12+","+0+","+r_val+","+g_val+","+b_val+","+pix_val+">";
+    myPort.write(msg);
+  }
+  
+  //Send random values scaled by color wheel to all LEDs
+  
+  //Send gradient to strip (naive)
+  
 }
 
 

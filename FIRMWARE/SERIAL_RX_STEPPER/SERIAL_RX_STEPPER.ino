@@ -217,12 +217,19 @@ void laser_controller()
     else if (p1 == 1) {fog_state = 1;  digitalWrite(fog_pin, LOW);} //Fog Machine On
   }
 
-  //Control Neopixels from Serial data
+  //Control entire Neopixel strip from Serial data
   else if (cmd == 6)
   {
     uint32_t clr = strip.Color(p1, p2, p3);
     strip.fill(clr);
     strip.show();
+  }
+
+  //Control single Neopixel pixel from Serial data
+  else if (cmd == 12)
+  {
+    strip.setPixelColor(p4, p1, p2, p3);
+    strip.show();   
   }
 }
 
