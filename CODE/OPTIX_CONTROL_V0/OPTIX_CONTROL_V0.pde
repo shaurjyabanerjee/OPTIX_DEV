@@ -68,7 +68,7 @@ int esc_state = 0;
 //LED control variables
 int r1_val, g1_val, b1_val = 0;
 int r2_val, g2_val, b2_val = 0;
-int num_pixels = 10;
+int num_pixels = 6;
 int pix_val = 0;
 
 //Create global Control P5 GUI Elements
@@ -363,7 +363,7 @@ void setup() {
      .setValue(0)
      .setPosition(g_base_x + (g_spacing_x*2) + 390 , g_base_y + (g_spacing_y*4))
      .setSize(170, g_button_height)
-     .setId(1033);
+     .setId(1034);
      
   cp5.addButton("SEND RANDOM COLORS")
      .setValue(0)
@@ -738,10 +738,31 @@ public void controlEvent(ControlEvent theEvent) {
   //Send gradient to strip (naive)
   if (id == 1034)
   {
+    color lerp;
+    int r, g, b = 0;
     
+    r1_val = cp5.get(ColorWheel.class,"c").r();
+    g1_val = cp5.get(ColorWheel.class,"c").g();
+    b1_val = cp5.get(ColorWheel.class,"c").b();
+    color color1 =  color(r1_val, g1_val, b1_val);
+    
+    r2_val = cp5.get(ColorWheel.class,"c2").r();
+    g2_val = cp5.get(ColorWheel.class,"c2").g();
+    b2_val = cp5.get(ColorWheel.class,"c2").b();
+    color color2 =  color(r2_val, g2_val, b2_val);
+    
+    for (int i = 0; i < num_pixels; i++)
+    {
+      lerp = lerpColor(color1, color2, (1.0/num_pixels)*i);
+      r = int(red(lerp));
+      g = int(green(lerp));
+      b = int(blue(lerp));
+      msg = "<"+12+","+0+","+r+","+g+","+b+","+i+">";
+      myPort.write(msg);
+      delay(serial_delay);
+    }
     
   }
-  
 }
 
 
