@@ -63,11 +63,15 @@ int laser_vals [] = new int[4];
 int laser_counts[] = new int [4];
 int fog_state = 0;
 int fog_count = 0;
-int r_val, g_val, b_val = 0;
 int esc_state = 0;
+
+//LED control variables
+int r1_val, g1_val, b1_val = 0;
+int r2_val, g2_val, b2_val = 0;
+int num_pixels = 10;
 int pix_val = 0;
 
-//Create Control P5 GUI Elements
+//Create global Control P5 GUI Elements
 Knob position_knobs[] = new Knob[16];
 Knob speed_knobs[] = new Knob[16];
 Slider speed_slider;
@@ -355,6 +359,18 @@ void setup() {
      .setSize(170, g_button_height)
      .setId(1033);
      
+  cp5.addButton("SEND GRADIENT")
+     .setValue(0)
+     .setPosition(g_base_x + (g_spacing_x*2) + 390 , g_base_y + (g_spacing_y*4))
+     .setSize(170, g_button_height)
+     .setId(1033);
+     
+  cp5.addButton("SEND RANDOM COLORS")
+     .setValue(0)
+     .setPosition(g_base_x + (g_spacing_x*2) + 390 , g_base_y + (g_spacing_y*5))
+     .setSize(170, g_button_height)
+     .setId(1035);
+     
   led_index_select = cp5.addKnob("LED INDEX")
                  .setRange(0,10)
                  .setValue(0)
@@ -382,6 +398,7 @@ void setup() {
                  .setResolution(10);
      
   cp5.addColorWheel("c", 1220, 170, 200).setRGB(color(255,0,0));
+  cp5.addColorWheel("c2", 1555, 170, 200).setRGB(color(255,0,0));
 }
 
 void draw() 
@@ -486,9 +503,7 @@ public void controlEvent(ControlEvent theEvent) {
       
       delay(50);
     }
-    
   }
-  
   
   //Global Speed is being adjusted
   if (id == 1005) {max_speed = int(speed_slider.getValue());}
@@ -683,10 +698,10 @@ public void controlEvent(ControlEvent theEvent) {
   //Send color wheel value to LEDs
   if (id == 1030)
   {
-    r_val = cp5.get(ColorWheel.class,"c").r();
-    g_val = cp5.get(ColorWheel.class,"c").g();
-    b_val = cp5.get(ColorWheel.class,"c").b();
-    msg = "<"+6+","+0+","+r_val+","+g_val+","+b_val+","+0+">";
+    r1_val = cp5.get(ColorWheel.class,"c").r();
+    g1_val = cp5.get(ColorWheel.class,"c").g();
+    b1_val = cp5.get(ColorWheel.class,"c").b();
+    msg = "<"+6+","+0+","+r1_val+","+g1_val+","+b1_val+","+0+">";
     myPort.write(msg);
   }
   
@@ -697,17 +712,35 @@ public void controlEvent(ControlEvent theEvent) {
   //Send color wheel value to pixel
   if (id == 1032)
   {
-    r_val = cp5.get(ColorWheel.class,"c").r();
-    g_val = cp5.get(ColorWheel.class,"c").g();
-    b_val = cp5.get(ColorWheel.class,"c").b();
+    r1_val = cp5.get(ColorWheel.class,"c").r();
+    g1_val = cp5.get(ColorWheel.class,"c").g();
+    b1_val = cp5.get(ColorWheel.class,"c").b();
     pix_val = int(led_index_select.getValue());
-    msg = "<"+12+","+0+","+r_val+","+g_val+","+b_val+","+pix_val+">";
+    msg = "<"+12+","+0+","+r1_val+","+g1_val+","+b1_val+","+pix_val+">";
     myPort.write(msg);
   }
   
   //Send random values scaled by color wheel to all LEDs
+  if (id == 1035)
+  {
+    r1_val = cp5.get(ColorWheel.class,"c").r();
+    g1_val = cp5.get(ColorWheel.class,"c").g();
+    b1_val = cp5.get(ColorWheel.class,"c").b();
+    
+    for (int i = 0; i < num_pixels; i++)
+    {
+      msg = "<"+12+","+0+","+int(random(r1_val))+","+int(random(g1_val))+","+int(random(b1_val))+","+i+">";
+      myPort.write(msg);
+      delay(serial_delay);
+    }
+  }
   
   //Send gradient to strip (naive)
+  if (id == 1034)
+  {
+    
+    
+  }
   
 }
 
