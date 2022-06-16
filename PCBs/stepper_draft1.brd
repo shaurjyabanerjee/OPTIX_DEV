@@ -1407,56 +1407,28 @@ design rules under a new name.</description>
 <wire x1="23.876" y1="38.1" x2="23.876" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M1_STEP">
-<contactref element="B1" pad="2"/>
 <contactref element="U1" pad="JP1_2"/>
-<wire x1="60.96" y1="53.34" x2="27.94" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M1_DIR">
-<contactref element="B1" pad="3"/>
 <contactref element="U1" pad="JP1_1"/>
-<wire x1="58.42" y1="53.34" x2="30.48" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M2_STEP">
-<contactref element="B1" pad="4"/>
 <contactref element="U2" pad="JP1_2"/>
-<wire x1="55.88" y1="53.34" x2="57.15" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M2_DIR">
-<contactref element="B1" pad="5"/>
 <contactref element="U2" pad="JP1_1"/>
-<wire x1="53.34" y1="53.34" x2="59.69" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M3_STEP">
-<contactref element="B1" pad="6"/>
 <contactref element="U3" pad="JP1_2"/>
-<wire x1="50.8" y1="53.34" x2="86.36" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M3_DIR">
-<contactref element="B1" pad="7"/>
 <contactref element="U3" pad="JP1_1"/>
-<wire x1="48.26" y1="53.34" x2="88.9" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M4_STEP">
-<contactref element="B1" pad="8"/>
 <contactref element="U4" pad="JP1_2"/>
-<wire x1="44.45" y1="53.34" x2="115.57" y2="101.6" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="M5_STEP">
-<contactref element="B1" pad="10"/>
-</signal>
-<signal name="M6_STEP">
-<contactref element="B1" pad="12"/>
 </signal>
 <signal name="M4_DIR">
-<contactref element="B1" pad="9"/>
 <contactref element="U4" pad="JP1_1"/>
-<wire x1="41.91" y1="53.34" x2="118.11" y2="101.6" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="M5_DIR">
-<contactref element="B1" pad="11"/>
-</signal>
-<signal name="M6_DIR">
-<contactref element="B1" pad="13"/>
 </signal>
 <signal name="MS1">
 <contactref element="U1" pad="JP1_7"/>
@@ -1709,6 +1681,108 @@ design rules under a new name.</description>
 </signal>
 <signal name="LED_DATA_4">
 <contactref element="R4" pad="P$1"/>
+</signal>
+<signal name="N$27">
+<contactref element="B1" pad="22"/>
+</signal>
+<signal name="N$28">
+<contactref element="B1" pad="24"/>
+</signal>
+<signal name="N$29">
+<contactref element="B1" pad="26"/>
+</signal>
+<signal name="N$30">
+<contactref element="B1" pad="28"/>
+</signal>
+<signal name="N$31">
+<contactref element="B1" pad="30"/>
+</signal>
+<signal name="N$32">
+<contactref element="B1" pad="32"/>
+</signal>
+<signal name="N$33">
+<contactref element="B1" pad="34"/>
+</signal>
+<signal name="N$34">
+<contactref element="B1" pad="36"/>
+</signal>
+<signal name="N$35">
+<contactref element="B1" pad="38"/>
+</signal>
+<signal name="N$36">
+<contactref element="B1" pad="40"/>
+</signal>
+<signal name="N$37">
+<contactref element="B1" pad="42"/>
+</signal>
+<signal name="N$38">
+<contactref element="B1" pad="44"/>
+</signal>
+<signal name="N$39">
+<contactref element="B1" pad="46"/>
+</signal>
+<signal name="N$40">
+<contactref element="B1" pad="48"/>
+</signal>
+<signal name="N$41">
+<contactref element="B1" pad="23"/>
+</signal>
+<signal name="N$42">
+<contactref element="B1" pad="25"/>
+</signal>
+<signal name="N$43">
+<contactref element="B1" pad="27"/>
+</signal>
+<signal name="N$44">
+<contactref element="B1" pad="29"/>
+</signal>
+<signal name="N$45">
+<contactref element="B1" pad="31"/>
+</signal>
+<signal name="N$46">
+<contactref element="B1" pad="33"/>
+</signal>
+<signal name="N$47">
+<contactref element="B1" pad="35"/>
+</signal>
+<signal name="N$48">
+<contactref element="B1" pad="37"/>
+</signal>
+<signal name="N$49">
+<contactref element="B1" pad="39"/>
+</signal>
+<signal name="N$50">
+<contactref element="B1" pad="41"/>
+</signal>
+<signal name="N$51">
+<contactref element="B1" pad="43"/>
+</signal>
+<signal name="N$52">
+<contactref element="B1" pad="45"/>
+</signal>
+<signal name="N$53">
+<contactref element="B1" pad="47"/>
+</signal>
+<signal name="N$54">
+<contactref element="B1" pad="49"/>
+</signal>
+<signal name="N$55">
+<contactref element="B1" pad="2"/>
+</signal>
+<signal name="N$56">
+<contactref element="B1" pad="3"/>
+</signal>
+<signal name="N$57">
+<contactref element="B1" pad="4"/>
+</signal>
+<signal name="N$58">
+<contactref element="B1" pad="5"/>
+</signal>
+<signal name="N$59">
+<contactref element="B1" pad="6"/>
+</signal>
+<signal name="N$60">
+<contactref element="B1" pad="7"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
