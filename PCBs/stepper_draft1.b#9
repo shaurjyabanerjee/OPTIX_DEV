@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1091,20 +1091,20 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="B1" library="SparkFun-Boards" package="ARDUINO_MEGA_NO_SILK" value="ARDUINO_MEGA_R3FULL" x="52.07" y="29.21" smashed="yes">
-<attribute name="NAME" x="53.34" y="57.15" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="52.07" y="1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="B1" library="SparkFun-Boards" package="ARDUINO_MEGA_NO_SILK" value="ARDUINO_MEGA_R3FULL" x="52.07" y="55.88" smashed="yes">
+<attribute name="NAME" x="53.34" y="83.82" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="52.07" y="27.94" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U1" library="TMC2208_SILENTSTEPSTICK" package="MODULE_TMC2208_SILENTSTEPSTICK" value="TMC2208_SILENTSTEPSTICK" x="21.59" y="107.95" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="-49.53" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board " x="-49.53" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Trinamic Motion" x="-49.53" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="TMC2208 SILENTSTEPSTICK" x="-49.53" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32.19" y="115.55" size="1.778" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="None" x="-49.53" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="-49.53" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TMC2208 SILENTSTEPSTICK/?ref=eda" x="-49.53" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="9.29" y="115.55" size="1.778" layer="27" rot="R270"/>
+<element name="U1" library="TMC2208_SILENTSTEPSTICK" package="MODULE_TMC2208_SILENTSTEPSTICK" value="TMC2208_SILENTSTEPSTICK" x="48.26" y="162.56" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="-22.86" y="120.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board " x="-22.86" y="120.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Trinamic Motion" x="-22.86" y="120.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TMC2208 SILENTSTEPSTICK" x="-22.86" y="120.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.86" y="170.16" size="1.778" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="-22.86" y="120.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="-22.86" y="120.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TMC2208 SILENTSTEPSTICK/?ref=eda" x="-22.86" y="120.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="35.96" y="170.16" size="1.778" layer="27" rot="R270"/>
 </element>
 <element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ_2" package3d_urn="urn:adsk.eagle:package:15474/1" value="" x="25.4" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.813" y="36.83" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -1116,213 +1116,213 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="7" x="25.4" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="25.5001" y="33.02" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="J1" library="TBLH10V-500-04BK" package="CUI_TBLH10V-500-04BK" value="TBLH10V-500-04BK" x="13.97" y="127" smashed="yes">
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="13.97" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="  2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="13.97" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="102-TBLH10V-500-04BK-ND" x="13.97" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="13.97" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-04BK" x="13.97" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.87" y="129.6" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="13.97" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-04BK/?ref=eda" x="13.97" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="10.87" y="117.85" size="1.778" layer="27"/>
+<element name="J1" library="TBLH10V-500-04BK" package="CUI_TBLH10V-500-04BK" value="TBLH10V-500-04BK" x="40.64" y="181.61" smashed="yes">
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="40.64" y="181.61" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="  2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="40.64" y="181.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="102-TBLH10V-500-04BK-ND" x="40.64" y="181.61" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="CUI Devices" x="40.64" y="181.61" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TBLH10V-500-04BK" x="40.64" y="181.61" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="37.54" y="184.21" size="1.778" layer="25"/>
+<attribute name="PACKAGE" value="None" x="40.64" y="181.61" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-04BK/?ref=eda" x="40.64" y="181.61" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="37.54" y="172.46" size="1.778" layer="27"/>
 </element>
-<element name="U2" library="TMC2208_SILENTSTEPSTICK" package="MODULE_TMC2208_SILENTSTEPSTICK" value="TMC2208_SILENTSTEPSTICK" x="50.8" y="107.95" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="78.74" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board " x="78.74" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Trinamic Motion" x="78.74" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="TMC2208 SILENTSTEPSTICK" x="78.74" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="61.4" y="115.55" size="1.778" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="None" x="78.74" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="78.74" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TMC2208 SILENTSTEPSTICK/?ref=eda" x="78.74" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="38.5" y="115.55" size="1.778" layer="27" rot="R270"/>
+<element name="U2" library="TMC2208_SILENTSTEPSTICK" package="MODULE_TMC2208_SILENTSTEPSTICK" value="TMC2208_SILENTSTEPSTICK" x="77.47" y="162.56" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="105.41" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board " x="105.41" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Trinamic Motion" x="105.41" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TMC2208 SILENTSTEPSTICK" x="105.41" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="88.07" y="170.16" size="1.778" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="105.41" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="105.41" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TMC2208 SILENTSTEPSTICK/?ref=eda" x="105.41" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="65.17" y="170.16" size="1.778" layer="27" rot="R270"/>
 </element>
-<element name="J2" library="TBLH10V-500-04BK" package="CUI_TBLH10V-500-04BK" value="TBLH10V-500-04BK" x="43.18" y="127" smashed="yes">
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="26.67" y="153.67" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="  2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="26.67" y="153.67" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="102-TBLH10V-500-04BK-ND" x="26.67" y="153.67" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="26.67" y="153.67" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-04BK" x="26.67" y="153.67" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.08" y="129.6" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="26.67" y="153.67" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-04BK/?ref=eda" x="26.67" y="153.67" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="40.08" y="117.85" size="1.778" layer="27"/>
+<element name="J2" library="TBLH10V-500-04BK" package="CUI_TBLH10V-500-04BK" value="TBLH10V-500-04BK" x="69.85" y="181.61" smashed="yes">
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="53.34" y="208.28" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="  2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="53.34" y="208.28" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="102-TBLH10V-500-04BK-ND" x="53.34" y="208.28" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="CUI Devices" x="53.34" y="208.28" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TBLH10V-500-04BK" x="53.34" y="208.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="66.75" y="184.21" size="1.778" layer="25"/>
+<attribute name="PACKAGE" value="None" x="53.34" y="208.28" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-04BK/?ref=eda" x="53.34" y="208.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="66.75" y="172.46" size="1.778" layer="27"/>
 </element>
-<element name="U3" library="TMC2208_SILENTSTEPSTICK" package="MODULE_TMC2208_SILENTSTEPSTICK" value="TMC2208_SILENTSTEPSTICK" x="80.01" y="107.95" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="107.95" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board " x="107.95" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Trinamic Motion" x="107.95" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="TMC2208 SILENTSTEPSTICK" x="107.95" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="90.61" y="115.55" size="1.778" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="None" x="107.95" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="107.95" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TMC2208 SILENTSTEPSTICK/?ref=eda" x="107.95" y="125.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="67.71" y="115.55" size="1.778" layer="27" rot="R270"/>
+<element name="U3" library="TMC2208_SILENTSTEPSTICK" package="MODULE_TMC2208_SILENTSTEPSTICK" value="TMC2208_SILENTSTEPSTICK" x="106.68" y="162.56" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="134.62" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board " x="134.62" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Trinamic Motion" x="134.62" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TMC2208 SILENTSTEPSTICK" x="134.62" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="117.28" y="170.16" size="1.778" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="134.62" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="134.62" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TMC2208 SILENTSTEPSTICK/?ref=eda" x="134.62" y="180.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="94.38" y="170.16" size="1.778" layer="27" rot="R270"/>
 </element>
-<element name="J3" library="TBLH10V-500-04BK" package="CUI_TBLH10V-500-04BK" value="TBLH10V-500-04BK" x="72.39" y="127" smashed="yes">
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="55.88" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="  2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="55.88" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="102-TBLH10V-500-04BK-ND" x="55.88" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="55.88" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-04BK" x="55.88" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="69.29" y="129.6" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="55.88" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-04BK/?ref=eda" x="55.88" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="69.29" y="117.85" size="1.778" layer="27"/>
+<element name="J3" library="TBLH10V-500-04BK" package="CUI_TBLH10V-500-04BK" value="TBLH10V-500-04BK" x="99.06" y="181.61" smashed="yes">
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="82.55" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="  2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="82.55" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="102-TBLH10V-500-04BK-ND" x="82.55" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="CUI Devices" x="82.55" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TBLH10V-500-04BK" x="82.55" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="95.96" y="184.21" size="1.778" layer="25"/>
+<attribute name="PACKAGE" value="None" x="82.55" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-04BK/?ref=eda" x="82.55" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="95.96" y="172.46" size="1.778" layer="27"/>
 </element>
-<element name="U4" library="TMC2208_SILENTSTEPSTICK" package="MODULE_TMC2208_SILENTSTEPSTICK" value="TMC2208_SILENTSTEPSTICK" x="109.22" y="107.95" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="147.32" y="143.51" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board " x="147.32" y="143.51" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Trinamic Motion" x="147.32" y="143.51" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="TMC2208 SILENTSTEPSTICK" x="147.32" y="143.51" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="119.82" y="115.55" size="1.778" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="None" x="147.32" y="143.51" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="147.32" y="143.51" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TMC2208 SILENTSTEPSTICK/?ref=eda" x="147.32" y="143.51" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="96.92" y="115.55" size="1.778" layer="27" rot="R270"/>
+<element name="U4" library="TMC2208_SILENTSTEPSTICK" package="MODULE_TMC2208_SILENTSTEPSTICK" value="TMC2208_SILENTSTEPSTICK" x="135.89" y="162.56" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="173.99" y="198.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board " x="173.99" y="198.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Trinamic Motion" x="173.99" y="198.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TMC2208 SILENTSTEPSTICK" x="173.99" y="198.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="146.49" y="170.16" size="1.778" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="173.99" y="198.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="173.99" y="198.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TMC2208 SILENTSTEPSTICK/?ref=eda" x="173.99" y="198.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="123.59" y="170.16" size="1.778" layer="27" rot="R270"/>
 </element>
-<element name="J4" library="TBLH10V-500-04BK" package="CUI_TBLH10V-500-04BK" value="TBLH10V-500-04BK" x="101.6" y="127" smashed="yes">
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="67.31" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="  2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="67.31" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="102-TBLH10V-500-04BK-ND" x="67.31" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="67.31" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-04BK" x="67.31" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="98.5" y="129.6" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="67.31" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-04BK/?ref=eda" x="67.31" y="180.34" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="98.5" y="117.85" size="1.778" layer="27"/>
+<element name="J4" library="TBLH10V-500-04BK" package="CUI_TBLH10V-500-04BK" value="TBLH10V-500-04BK" x="128.27" y="181.61" smashed="yes">
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="93.98" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="  2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="93.98" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="102-TBLH10V-500-04BK-ND" x="93.98" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="CUI Devices" x="93.98" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TBLH10V-500-04BK" x="93.98" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="125.17" y="184.21" size="1.778" layer="25"/>
+<attribute name="PACKAGE" value="None" x="93.98" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-04BK/?ref=eda" x="93.98" y="234.95" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="125.17" y="172.46" size="1.778" layer="27"/>
 </element>
-<element name="LED1_IN" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="0" y="-6.35" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="0" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="0" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="0" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="0" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-03BK" x="0" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.1" y="-3.75" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="0" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="0" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="0" y="-6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-3.1" y="-15.5" size="1.778" layer="27"/>
+<element name="LED1_IN" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="191.77" y="16.51" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="191.77" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="191.77" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="191.77" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="CUI Devices" x="191.77" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="TBLH10V-500-03BK" x="191.77" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="189.17" y="13.41" size="1.778" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="None" x="191.77" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="191.77" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="191.77" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="200.92" y="13.41" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="LED1_OUT" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="0" y="-21.59" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="0" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="0" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="0" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="0" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-03BK" x="0" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.1" y="-18.99" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="0" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="0" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="0" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-3.1" y="-30.74" size="1.778" layer="27"/>
+<element name="LED1_OUT" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="191.77" y="177.8" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="In Stock" x="191.77" y="177.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="191.77" y="177.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="191.77" y="177.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="CUI Devices" x="191.77" y="177.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="TBLH10V-500-03BK" x="191.77" y="177.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="189.17" y="174.7" size="1.778" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="None" x="191.77" y="177.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="191.77" y="177.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="191.77" y="177.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="200.92" y="174.7" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="1k" x="1.27" y="-34.29" smashed="yes">
-<attribute name="NAME" x="1.27" y="-33.274" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08380" x="1.27" y="-34.29" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.27" y="-35.306" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="1k" x="156.21" y="140.97" smashed="yes">
+<attribute name="NAME" x="156.21" y="141.986" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08380" x="156.21" y="140.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="156.21" y="139.954" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP2" package3d_urn="urn:adsk.eagle:package:15452/1" value="" x="-8.89" y="-30.48" smashed="yes">
-<attribute name="NAME" x="-12.446" y="-28.829" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="34" x="-8.89" y="-30.48" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-12.446" y="-34.798" size="1.27" layer="27" ratio="10"/>
+<element name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP2" package3d_urn="urn:adsk.eagle:package:15452/1" value="" x="180.34" y="184.15" smashed="yes">
+<attribute name="NAME" x="176.784" y="185.801" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="34" x="180.34" y="184.15" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="176.784" y="179.832" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="AXIAL-0.3" value="1k" x="-7.62" y="-38.1" smashed="yes">
-<attribute name="NAME" x="-7.62" y="-37.084" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08380" x="-7.62" y="-38.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-7.62" y="-39.116" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="R2" library="SparkFun-Resistors" package="AXIAL-0.3" value="1k" x="181.61" y="177.8" smashed="yes">
+<attribute name="NAME" x="181.61" y="178.816" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08380" x="181.61" y="177.8" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="181.61" y="176.784" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="LED2_IN" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="-8.89" y="-45.72" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-8.89" y="-45.72" size="1.778" layer="27" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="-8.89" y="-45.72" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="-8.89" y="-45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="-8.89" y="-45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-03BK" x="-8.89" y="-45.72" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-11.99" y="-43.12" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="-8.89" y="-45.72" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-8.89" y="-45.72" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="-8.89" y="-45.72" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-11.99" y="-54.87" size="1.778" layer="27"/>
+<element name="LED2_IN" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="185.42" y="193.04" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="In Stock" x="185.42" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="185.42" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="185.42" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="CUI Devices" x="185.42" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TBLH10V-500-03BK" x="185.42" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="188.52" y="190.44" size="1.778" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="None" x="185.42" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="185.42" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="185.42" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="188.52" y="202.19" size="1.778" layer="27" rot="R180"/>
 </element>
-<element name="LED2_OUT" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="-8.89" y="-60.96" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-8.89" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="-8.89" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="-8.89" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="-8.89" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-03BK" x="-8.89" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-11.99" y="-58.36" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="-8.89" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-8.89" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="-8.89" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-11.99" y="-70.11" size="1.778" layer="27"/>
+<element name="LED2_OUT" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="25.4" y="193.04" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="In Stock" x="25.4" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="25.4" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="25.4" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="CUI Devices" x="25.4" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TBLH10V-500-03BK" x="25.4" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="28.5" y="190.44" size="1.778" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="None" x="25.4" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="25.4" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="25.4" y="193.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="28.5" y="202.19" size="1.778" layer="27" rot="R180"/>
 </element>
-<element name="LED3_IN" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="-8.89" y="-76.2" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-8.89" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="-8.89" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="-8.89" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="-8.89" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-03BK" x="-8.89" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-11.99" y="-73.6" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="-8.89" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-8.89" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="-8.89" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-11.99" y="-85.35" size="1.778" layer="27"/>
+<element name="LED3_IN" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="10.16" y="186.69" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="10.16" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="10.16" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="10.16" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="CUI Devices" x="10.16" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TBLH10V-500-03BK" x="10.16" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.76" y="189.79" size="1.778" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="10.16" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="10.16" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="10.16" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="1.01" y="189.79" size="1.778" layer="27" rot="R270"/>
 </element>
-<element name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP2" package3d_urn="urn:adsk.eagle:package:15452/1" value="" x="-17.78" y="-80.01" smashed="yes">
-<attribute name="NAME" x="-21.336" y="-78.359" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="34" x="-17.78" y="-80.01" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-21.336" y="-84.328" size="1.27" layer="27" ratio="10"/>
+<element name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP2" package3d_urn="urn:adsk.eagle:package:15452/1" value="" x="19.05" y="181.61" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.399" y="178.054" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="34" x="19.05" y="181.61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="23.368" y="178.054" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="1k" x="-16.51" y="-88.9" smashed="yes">
-<attribute name="NAME" x="-16.51" y="-87.884" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08380" x="-16.51" y="-88.9" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-16.51" y="-89.916" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="1k" x="26.67" y="182.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="27.686" y="182.88" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08380" x="26.67" y="182.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="25.654" y="182.88" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="LED3_OUT" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="-17.78" y="-96.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-17.78" y="-96.52" size="1.778" layer="27" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="-17.78" y="-96.52" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="-17.78" y="-96.52" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="-17.78" y="-96.52" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-03BK" x="-17.78" y="-96.52" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-20.88" y="-93.92" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="-17.78" y="-96.52" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-17.78" y="-96.52" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="-17.78" y="-96.52" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-20.88" y="-105.67" size="1.778" layer="27"/>
+<element name="LED3_OUT" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="10.16" y="25.4" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="10.16" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="10.16" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="10.16" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="CUI Devices" x="10.16" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TBLH10V-500-03BK" x="10.16" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.76" y="28.5" size="1.778" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="10.16" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="10.16" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="10.16" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="1.01" y="28.5" size="1.778" layer="27" rot="R270"/>
 </element>
-<element name="LED4_IN" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="-17.78" y="-111.76" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-17.78" y="-111.76" size="1.778" layer="27" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="-17.78" y="-111.76" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="-17.78" y="-111.76" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="-17.78" y="-111.76" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-03BK" x="-17.78" y="-111.76" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-20.88" y="-109.16" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="-17.78" y="-111.76" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-17.78" y="-111.76" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="-17.78" y="-111.76" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-20.88" y="-120.91" size="1.778" layer="27"/>
+<element name="LED4_IN" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="16.51" y="10.16" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="16.51" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="16.51" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="16.51" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="CUI Devices" x="16.51" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TBLH10V-500-03BK" x="16.51" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="13.41" y="12.76" size="1.778" layer="25"/>
+<attribute name="PACKAGE" value="None" x="16.51" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="16.51" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="16.51" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.41" y="1.01" size="1.778" layer="27"/>
 </element>
-<element name="LED4_OUT" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="-17.78" y="-127" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="-17.78" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="-17.78" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="-17.78" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="CUI Devices" x="-17.78" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TBLH10V-500-03BK" x="-17.78" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-20.88" y="-124.4" size="1.778" layer="25"/>
-<attribute name="PACKAGE" value="None" x="-17.78" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-17.78" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="-17.78" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-20.88" y="-136.15" size="1.778" layer="27"/>
+<element name="LED4_OUT" library="TBLH10V-500-03BK" package="CUI_TBLH10V-500-03BK" value="TBLH10V-500-03BK" x="176.53" y="10.16" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="176.53" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tblh10v-500-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="176.53" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 2~24 Poles, Screwless, Vertical, 5.00 Pitch, 24~16 (AWG), Terminal Block Connector " x="176.53" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="CUI Devices" x="176.53" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TBLH10V-500-03BK" x="176.53" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="173.43" y="12.76" size="1.778" layer="25"/>
+<attribute name="PACKAGE" value="None" x="176.53" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="176.53" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBLH10V-500-03BK/?ref=eda" x="176.53" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="173.43" y="1.01" size="1.778" layer="27"/>
 </element>
-<element name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP2" package3d_urn="urn:adsk.eagle:package:15452/1" value="" x="-26.67" y="-130.81" smashed="yes">
-<attribute name="NAME" x="-30.226" y="-129.159" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="34" x="-26.67" y="-130.81" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-30.226" y="-135.128" size="1.27" layer="27" ratio="10"/>
+<element name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP2" package3d_urn="urn:adsk.eagle:package:15452/1" value="" x="21.59" y="17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.146" y="16.129" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="34" x="21.59" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="25.146" y="22.098" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="AXIAL-0.3" value="1k" x="-25.4" y="-139.7" smashed="yes">
-<attribute name="NAME" x="-25.4" y="-138.684" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08380" x="-25.4" y="-139.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-25.4" y="-140.716" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="R4" library="SparkFun-Resistors" package="AXIAL-0.3" value="1k" x="22.86" y="22.86" smashed="yes">
+<attribute name="NAME" x="22.86" y="23.876" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08380" x="22.86" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.86" y="21.844" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>
@@ -1358,34 +1358,34 @@ design rules under a new name.</description>
 <contactref element="LED4_IN" pad="1_B"/>
 <contactref element="LED4_OUT" pad="1_A"/>
 <contactref element="LED4_OUT" pad="1_B"/>
-<wire x1="102.87" y1="114.3" x2="118.11" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="88.9" y1="114.3" x2="102.87" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="73.66" y1="114.3" x2="88.9" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="59.69" y1="114.3" x2="73.66" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="114.3" x2="59.69" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="114.3" x2="44.45" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="114.3" x2="30.48" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="53.34" x2="30.48" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="96.52" y1="10.16" x2="99.06" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="45.72" y1="5.08" x2="43.18" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="26.924" y1="38.1" x2="29.21" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="26.924" y1="33.02" x2="26.924" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-6.35" x2="43.18" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-11.85" x2="0" y2="-6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-21.59" x2="0" y2="-11.85" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-27.09" x2="0" y2="-21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.89" y1="-45.72" x2="0" y2="-27.09" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.89" y1="-51.22" x2="-8.89" y2="-45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.89" y1="-60.96" x2="-8.89" y2="-51.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.89" y1="-66.46" x2="-8.89" y2="-60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.89" y1="-76.2" x2="-8.89" y2="-66.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.89" y1="-81.7" x2="-8.89" y2="-76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.78" y1="-96.52" x2="-8.89" y2="-81.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.78" y1="-102.02" x2="-17.78" y2="-96.52" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.78" y1="-111.76" x2="-17.78" y2="-102.02" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.78" y1="-117.26" x2="-17.78" y2="-111.76" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.78" y1="-127" x2="-17.78" y2="-117.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.78" y1="-132.5" x2="-17.78" y2="-127" width="0" layer="19" extent="1-1"/>
+<wire x1="129.54" y1="168.91" x2="144.78" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="168.91" x2="129.54" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="100.33" y1="168.91" x2="115.57" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="168.91" x2="100.33" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="71.12" y1="168.91" x2="86.36" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="168.91" x2="71.12" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="168.91" x2="57.15" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="80.01" x2="57.15" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="96.52" y1="36.83" x2="99.06" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="31.75" x2="43.18" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="33.02" x2="43.18" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="38.1" x2="26.924" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="25.4" x2="26.924" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="4.66" y1="25.4" x2="10.16" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="10.16" x2="10.16" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="4.66" x2="16.51" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="186.69" x2="41.91" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="4.66" y1="186.69" x2="10.16" y2="186.69" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="193.04" x2="10.16" y2="186.69" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="198.54" x2="25.4" y2="193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="176.53" y1="10.16" x2="99.06" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="176.53" y1="4.66" x2="176.53" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="191.77" y1="16.51" x2="176.53" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="197.27" y1="16.51" x2="191.77" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="191.77" y1="177.8" x2="144.78" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="197.27" y1="177.8" x2="191.77" y2="177.8" width="0" layer="19" extent="1-1"/>
+<wire x1="185.42" y1="193.04" x2="191.77" y2="177.8" width="0" layer="19" extent="1-1"/>
+<wire x1="185.42" y1="198.54" x2="185.42" y2="193.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="B1" pad="5V@1"/>
@@ -1397,13 +1397,13 @@ design rules under a new name.</description>
 <contactref element="U2" pad="JP2_7"/>
 <contactref element="U3" pad="JP2_7"/>
 <contactref element="U4" pad="JP2_7"/>
-<wire x1="86.36" y1="114.3" x2="115.57" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="57.15" y1="114.3" x2="86.36" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="114.3" x2="57.15" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="96.52" y1="53.34" x2="86.36" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="99.06" y1="53.34" x2="96.52" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="5.08" x2="96.52" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="23.876" y1="33.02" x2="40.64" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="113.03" y1="168.91" x2="142.24" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="168.91" x2="113.03" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="168.91" x2="83.82" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="96.52" y1="80.01" x2="113.03" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="99.06" y1="80.01" x2="96.52" y2="80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="31.75" x2="96.52" y2="80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="23.876" y1="33.02" x2="40.64" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="23.876" y1="38.1" x2="23.876" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M1_STEP">
@@ -1436,10 +1436,10 @@ design rules under a new name.</description>
 <contactref element="U2" pad="JP1_7"/>
 <contactref element="U3" pad="JP1_7"/>
 <contactref element="U4" pad="JP1_7"/>
-<wire x1="73.66" y1="101.6" x2="102.87" y2="101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="101.6" x2="73.66" y2="101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="101.6" x2="44.45" y2="101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="38.1" x2="15.24" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="100.33" y1="156.21" x2="129.54" y2="156.21" width="0" layer="19" extent="1-1"/>
+<wire x1="71.12" y1="156.21" x2="100.33" y2="156.21" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="156.21" x2="71.12" y2="156.21" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="38.1" x2="41.91" y2="156.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MS2">
 <contactref element="U1" pad="JP1_6"/>
@@ -1447,131 +1447,131 @@ design rules under a new name.</description>
 <contactref element="U2" pad="JP1_6"/>
 <contactref element="U3" pad="JP1_6"/>
 <contactref element="U4" pad="JP1_6"/>
-<wire x1="76.2" y1="101.6" x2="105.41" y2="101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="101.6" x2="76.2" y2="101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="101.6" x2="46.99" y2="101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="33.02" x2="17.78" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="102.87" y1="156.21" x2="132.08" y2="156.21" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="156.21" x2="102.87" y2="156.21" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="156.21" x2="73.66" y2="156.21" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="33.02" x2="44.45" y2="156.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="JP2_1"/>
 <contactref element="U2" pad="JP2_1"/>
 <contactref element="U3" pad="JP2_1"/>
 <contactref element="U4" pad="JP2_1"/>
-<wire x1="71.12" y1="114.3" x2="100.33" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="41.91" y1="114.3" x2="71.12" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="114.3" x2="41.91" y2="114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="97.79" y1="168.91" x2="127" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="68.58" y1="168.91" x2="97.79" y2="168.91" width="0" layer="19" extent="1-1"/>
+<wire x1="39.37" y1="168.91" x2="68.58" y2="168.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="JP2_6"/>
 <contactref element="J1" pad="4_B"/>
 <contactref element="J1" pad="4_A"/>
-<wire x1="28.97" y1="121.5" x2="28.97" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="114.3" x2="28.97" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="55.64" y1="176.11" x2="55.64" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="168.91" x2="55.64" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U1" pad="JP2_5"/>
 <contactref element="J1" pad="3_B"/>
 <contactref element="J1" pad="3_A"/>
-<wire x1="23.97" y1="121.5" x2="23.97" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="22.86" y1="114.3" x2="23.97" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="50.64" y1="176.11" x2="50.64" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="168.91" x2="50.64" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U1" pad="JP2_4"/>
 <contactref element="J1" pad="2_A"/>
 <contactref element="J1" pad="2_B"/>
-<wire x1="18.97" y1="121.5" x2="18.97" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="114.3" x2="18.97" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="45.64" y1="176.11" x2="45.64" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="168.91" x2="45.64" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U1" pad="JP2_3"/>
 <contactref element="J1" pad="1_A"/>
 <contactref element="J1" pad="1_B"/>
-<wire x1="13.97" y1="121.5" x2="13.97" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="114.3" x2="13.97" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="176.11" x2="40.64" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="168.91" x2="40.64" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U2" pad="JP2_6"/>
 <contactref element="J2" pad="4_B"/>
 <contactref element="J2" pad="4_A"/>
-<wire x1="58.18" y1="121.5" x2="58.18" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="54.61" y1="114.3" x2="58.18" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="84.85" y1="176.11" x2="84.85" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="168.91" x2="84.85" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U2" pad="JP2_5"/>
 <contactref element="J2" pad="3_B"/>
 <contactref element="J2" pad="3_A"/>
-<wire x1="53.18" y1="121.5" x2="53.18" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="52.07" y1="114.3" x2="53.18" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="79.85" y1="176.11" x2="79.85" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="168.91" x2="79.85" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="U2" pad="JP2_4"/>
 <contactref element="J2" pad="2_A"/>
 <contactref element="J2" pad="2_B"/>
-<wire x1="48.18" y1="121.5" x2="48.18" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="114.3" x2="48.18" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="74.85" y1="176.11" x2="74.85" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="168.91" x2="74.85" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U2" pad="JP2_3"/>
 <contactref element="J2" pad="1_A"/>
 <contactref element="J2" pad="1_B"/>
-<wire x1="43.18" y1="121.5" x2="43.18" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="114.3" x2="43.18" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="176.11" x2="69.85" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="168.91" x2="69.85" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="U3" pad="JP2_6"/>
 <contactref element="J3" pad="4_B"/>
 <contactref element="J3" pad="4_A"/>
-<wire x1="87.39" y1="121.5" x2="87.39" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="83.82" y1="114.3" x2="87.39" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="114.06" y1="176.11" x2="114.06" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="110.49" y1="168.91" x2="114.06" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U3" pad="JP2_5"/>
 <contactref element="J3" pad="3_B"/>
 <contactref element="J3" pad="3_A"/>
-<wire x1="82.39" y1="121.5" x2="82.39" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="81.28" y1="114.3" x2="82.39" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="109.06" y1="176.11" x2="109.06" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="107.95" y1="168.91" x2="109.06" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="U3" pad="JP2_4"/>
 <contactref element="J3" pad="2_A"/>
 <contactref element="J3" pad="2_B"/>
-<wire x1="77.39" y1="121.5" x2="77.39" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="78.74" y1="114.3" x2="77.39" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="104.06" y1="176.11" x2="104.06" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="105.41" y1="168.91" x2="104.06" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="U3" pad="JP2_3"/>
 <contactref element="J3" pad="1_A"/>
 <contactref element="J3" pad="1_B"/>
-<wire x1="72.39" y1="121.5" x2="72.39" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="76.2" y1="114.3" x2="72.39" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="99.06" y1="176.11" x2="99.06" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="102.87" y1="168.91" x2="99.06" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="U4" pad="JP2_6"/>
 <contactref element="J4" pad="4_B"/>
 <contactref element="J4" pad="4_A"/>
-<wire x1="116.6" y1="121.5" x2="116.6" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="113.03" y1="114.3" x2="116.6" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="143.27" y1="176.11" x2="143.27" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="139.7" y1="168.91" x2="143.27" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="U4" pad="JP2_5"/>
 <contactref element="J4" pad="3_B"/>
 <contactref element="J4" pad="3_A"/>
-<wire x1="111.6" y1="121.5" x2="111.6" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="110.49" y1="114.3" x2="111.6" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="138.27" y1="176.11" x2="138.27" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="137.16" y1="168.91" x2="138.27" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="U4" pad="JP2_4"/>
 <contactref element="J4" pad="2_A"/>
 <contactref element="J4" pad="2_B"/>
-<wire x1="106.6" y1="121.5" x2="106.6" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="107.95" y1="114.3" x2="106.6" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="133.27" y1="176.11" x2="133.27" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="134.62" y1="168.91" x2="133.27" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="U4" pad="JP2_3"/>
 <contactref element="J4" pad="1_A"/>
 <contactref element="J4" pad="1_B"/>
-<wire x1="101.6" y1="121.5" x2="101.6" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="105.41" y1="114.3" x2="101.6" y2="121.5" width="0" layer="19" extent="1-1"/>
+<wire x1="128.27" y1="176.11" x2="128.27" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="132.08" y1="168.91" x2="128.27" y2="176.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="LED1_OUT" pad="3_A"/>
@@ -1590,28 +1590,28 @@ design rules under a new name.</description>
 <contactref element="LED4_IN" pad="3_B"/>
 <contactref element="LED4_OUT" pad="3_A"/>
 <contactref element="LED4_OUT" pad="3_B"/>
-<wire x1="-7.78" y1="-127" x2="-7.78" y2="-132.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.78" y1="-117.26" x2="-7.78" y2="-127" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.78" y1="-111.76" x2="-7.78" y2="-117.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.78" y1="-102.02" x2="-7.78" y2="-111.76" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.78" y1="-96.52" x2="-7.78" y2="-102.02" width="0" layer="19" extent="1-1"/>
-<wire x1="1.11" y1="-81.7" x2="-7.78" y2="-96.52" width="0" layer="19" extent="1-1"/>
-<wire x1="1.11" y1="-76.2" x2="1.11" y2="-81.7" width="0" layer="19" extent="1-1"/>
-<wire x1="1.11" y1="-66.46" x2="1.11" y2="-76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="1.11" y1="-60.96" x2="1.11" y2="-66.46" width="0" layer="19" extent="1-1"/>
-<wire x1="1.11" y1="-51.22" x2="1.11" y2="-60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="1.11" y1="-45.72" x2="1.11" y2="-51.22" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="-27.09" x2="1.11" y2="-45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="-21.59" x2="10" y2="-27.09" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="-11.85" x2="10" y2="-21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="-6.35" x2="10" y2="-11.85" width="0" layer="19" extent="1-1"/>
+<wire x1="191.77" y1="26.51" x2="197.27" y2="26.51" width="0" layer="19" extent="1-1"/>
+<wire x1="186.53" y1="10.16" x2="191.77" y2="26.51" width="0" layer="19" extent="1-1"/>
+<wire x1="186.53" y1="4.66" x2="186.53" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="26.51" y1="10.16" x2="186.53" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="26.51" y1="4.66" x2="26.51" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="15.4" x2="26.51" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="4.66" y1="15.4" x2="10.16" y2="15.4" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="176.69" x2="10.16" y2="15.4" width="0" layer="19" extent="1-1"/>
+<wire x1="4.66" y1="176.69" x2="10.16" y2="176.69" width="0" layer="19" extent="1-1"/>
+<wire x1="15.4" y1="193.04" x2="10.16" y2="176.69" width="0" layer="19" extent="1-1"/>
+<wire x1="15.4" y1="198.54" x2="15.4" y2="193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="175.42" y1="198.54" x2="15.4" y2="198.54" width="0" layer="19" extent="1-1"/>
+<wire x1="175.42" y1="193.04" x2="175.42" y2="198.54" width="0" layer="19" extent="1-1"/>
+<wire x1="191.77" y1="187.8" x2="175.42" y2="193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="197.27" y1="187.8" x2="191.77" y2="187.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="LED1_IN" pad="2_A"/>
 <contactref element="LED1_IN" pad="2_B"/>
 <contactref element="R1" pad="P$2"/>
-<wire x1="5" y1="-11.85" x2="5.08" y2="-34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="5" y1="-6.35" x2="5" y2="-11.85" width="0" layer="19" extent="1-1"/>
+<wire x1="191.77" y1="21.51" x2="197.27" y2="21.51" width="0" layer="19" extent="1-1"/>
+<wire x1="160.02" y1="140.97" x2="191.77" y2="21.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_DATA_1">
 <contactref element="R1" pad="P$1"/>
@@ -1620,13 +1620,13 @@ design rules under a new name.</description>
 <contactref element="LED1_OUT" pad="2_A"/>
 <contactref element="LED1_OUT" pad="2_B"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="5" y1="-27.09" x2="-6.35" y2="-30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="5" y1="-21.59" x2="5" y2="-27.09" width="0" layer="19" extent="1-1"/>
+<wire x1="191.77" y1="182.8" x2="197.27" y2="182.8" width="0" layer="19" extent="1-1"/>
+<wire x1="182.88" y1="184.15" x2="191.77" y2="182.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="JP1" pad="1"/>
 <contactref element="R2" pad="P$1"/>
-<wire x1="-11.43" y1="-30.48" x2="-11.43" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="177.8" y1="177.8" x2="177.8" y2="184.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_DATA_2">
 <contactref element="R2" pad="P$2"/>
@@ -1635,20 +1635,20 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="2"/>
 <contactref element="LED2_IN" pad="2_A"/>
 <contactref element="LED2_IN" pad="2_B"/>
-<wire x1="-3.89" y1="-45.72" x2="-3.89" y2="-51.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.89" y1="-30.48" x2="-3.89" y2="-45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="180.42" y1="193.04" x2="180.42" y2="198.54" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="184.15" x2="180.42" y2="193.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="LED2_OUT" pad="2_A"/>
 <contactref element="LED2_OUT" pad="2_B"/>
 <contactref element="JP2" pad="3"/>
-<wire x1="-3.89" y1="-66.46" x2="-15.24" y2="-80.01" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.89" y1="-60.96" x2="-3.89" y2="-66.46" width="0" layer="19" extent="1-1"/>
+<wire x1="20.4" y1="193.04" x2="19.05" y2="184.15" width="0" layer="19" extent="1-1"/>
+<wire x1="20.4" y1="198.54" x2="20.4" y2="193.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="JP2" pad="1"/>
 <contactref element="R3" pad="P$2"/>
-<wire x1="-20.32" y1="-80.01" x2="-12.7" y2="-88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="179.07" x2="19.05" y2="179.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_DATA_3">
 <contactref element="R3" pad="P$1"/>
@@ -1657,27 +1657,27 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="2"/>
 <contactref element="LED3_IN" pad="2_A"/>
 <contactref element="LED3_IN" pad="2_B"/>
-<wire x1="-3.89" y1="-81.7" x2="-17.78" y2="-80.01" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.89" y1="-76.2" x2="-3.89" y2="-81.7" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="181.69" x2="19.05" y2="181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="4.66" y1="181.69" x2="10.16" y2="181.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="R4" pad="P$2"/>
 <contactref element="JP3" pad="1"/>
-<wire x1="-29.21" y1="-130.81" x2="-21.59" y2="-139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="17.78" x2="26.67" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="LED3_OUT" pad="2_A"/>
 <contactref element="LED3_OUT" pad="2_B"/>
 <contactref element="JP3" pad="3"/>
-<wire x1="-12.78" y1="-102.02" x2="-24.13" y2="-130.81" width="0" layer="19" extent="1-1"/>
-<wire x1="-12.78" y1="-96.52" x2="-12.78" y2="-102.02" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="20.4" x2="19.05" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="4.66" y1="20.4" x2="10.16" y2="20.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="JP3" pad="2"/>
 <contactref element="LED4_IN" pad="2_A"/>
 <contactref element="LED4_IN" pad="2_B"/>
-<wire x1="-12.78" y1="-117.26" x2="-26.67" y2="-130.81" width="0" layer="19" extent="1-1"/>
-<wire x1="-12.78" y1="-111.76" x2="-12.78" y2="-117.26" width="0" layer="19" extent="1-1"/>
+<wire x1="21.51" y1="10.16" x2="21.59" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="21.51" y1="4.66" x2="21.51" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_DATA_4">
 <contactref element="R4" pad="P$1"/>
@@ -1783,6 +1783,36 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$60">
 <contactref element="B1" pad="7"/>
+</signal>
+<signal name="N$61">
+<contactref element="B1" pad="10"/>
+</signal>
+<signal name="N$62">
+<contactref element="B1" pad="12"/>
+</signal>
+<signal name="N$63">
+<contactref element="B1" pad="11"/>
+</signal>
+<signal name="N$64">
+<contactref element="B1" pad="13"/>
+</signal>
+<signal name="N$65">
+<contactref element="B1" pad="9"/>
+</signal>
+<signal name="N$66">
+<contactref element="B1" pad="8"/>
+</signal>
+<signal name="N$67">
+<contactref element="B1" pad="17"/>
+</signal>
+<signal name="N$68">
+<contactref element="B1" pad="15"/>
+</signal>
+<signal name="N$69">
+<contactref element="B1" pad="16"/>
+</signal>
+<signal name="N$70">
+<contactref element="B1" pad="14"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
