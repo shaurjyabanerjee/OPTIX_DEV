@@ -630,6 +630,16 @@ public void controlEvent(ControlEvent theEvent) {
     send_speeds_positions_serial();
   }
   
+  //All to random 45s is being requested
+  if (id == 1004)
+  {
+    for (int i=0; i<16; i++)
+    {
+      positions[i] = angle_to_steps(45*int(random(8)));
+      send_speeds_positions_serial();
+    }
+  }
+  
   //LASER CONTROL ----------------------------------------------------------
   //Laser 1 On/Off
   if (id == 1020) 
